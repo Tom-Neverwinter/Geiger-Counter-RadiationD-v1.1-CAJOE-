@@ -15,7 +15,7 @@
 
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
-#include <IFTTTMaker.h>
+#include <IFTTTMaker.h> // REQ: ArduinoJSON library version 5.13.2, newer versions break compatability
 #include <SSD1306.h>
 #include <credentials.h> // or define mySSID and myPASSWORD and THINGSPEAK_API_KEY
 
